@@ -1,0 +1,27 @@
+{
+	"name": "polygon-drag-drop",
+	"version": "1.0.0",
+	"description": "Web Components приложение для работы с полигонами",
+	"main": "index.js",
+	"scripts": {
+		"dev": "webpack serve --mode development --open",
+		"build": "webpack --mode production",
+		"start": "webpack serve --mode development"
+	},
+	"devDependencies": {
+		"webpack": "^5.89.0",
+		"webpack-cli": "^5.1.4",
+		"webpack-dev-server": "^4.15.1",
+		"html-webpack-plugin": "^5.5.3",
+		"css-loader": "^6.8.1",
+		"style-loader": "^3.3.3"
+	},
+	"keywords": [
+		"web-components",
+		"svg",
+		"drag-drop",
+		"canvas"
+	],
+	"author": "",
+	"license": "MIT"
+}
